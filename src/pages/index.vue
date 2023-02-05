@@ -100,7 +100,7 @@ async function deploy(type: string, params: string[]) {
       <div class="column is-8 is-offset-2 register">
         <div class="columns">
           <div class="column left">
-            <img src="https://mcoinscan.com/asset/images/logo.png" />
+            <img src="https://mcoinscan.com/asset/images/logo.png" style="width:100px;" />
             <h2 class="subtitle colored is-4">mCoin Token generator</h2>
 
             <div class="field" v-if="isConnected">

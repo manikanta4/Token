@@ -100,7 +100,8 @@ async function deploy(type: string, params: string[]) {
       <div class="column is-8 is-offset-2 register">
         <div class="columns">
           <div class="column left">
-            <h2 class="subtitle colored is-4">Token generator</h2>
+            <img src="https://mcoinscan.com/asset/images/logo.png" />
+            <h2 class="subtitle colored is-4">mCoin Token generator</h2>
 
             <div class="field" v-if="isConnected">
               <p>
@@ -129,7 +130,7 @@ async function deploy(type: string, params: string[]) {
               <div class="control">
                 <div class="select">
                   <select>
-                    <option>ERC20 (ETH)</option>
+                    <option>mCoin-20</option>
                   </select>
                 </div>
               </div>
@@ -159,7 +160,7 @@ async function deploy(type: string, params: string[]) {
                   <input
                     class="input is-medium"
                     type="text"
-                    placeholder="ETHER"
+                    placeholder="mUSDT"
                     v-model="form.name"
                   />
                 </div>
@@ -171,7 +172,7 @@ async function deploy(type: string, params: string[]) {
                   <input
                     class="input is-medium"
                     type="text"
-                    placeholder="ETH"
+                    placeholder="mUSDT"
                     v-model="form.symbol"
                   />
                 </div>
